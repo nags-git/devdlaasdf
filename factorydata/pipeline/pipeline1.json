@@ -22,11 +22,20 @@
 							"recursive": true
 						}
 					},
+					"sink": {
+						"type": "BinarySink"
+					},
 					"enableStaging": false
 				},
 				"inputs": [
 					{
 						"referenceName": "devdlaasbinarycopy",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "devdlaasbinarypaste",
 						"type": "DatasetReference"
 					}
 				]
