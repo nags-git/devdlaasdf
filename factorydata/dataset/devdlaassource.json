@@ -10,7 +10,11 @@
 		"typeProperties": {
 			"location": {
 				"type": "AmazonS3Location",
-				"bucketName": "duos-dl"
+				"bucketName": "duos-dl",
+				"fileName": {
+					"value": "*.pdf",
+					"type": "Expression"
+				}
 			}
 		}
 	}
