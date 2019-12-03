@@ -19,7 +19,8 @@
 						"type": "BinarySource",
 						"storeSettings": {
 							"type": "AmazonS3ReadSettings",
-							"recursive": false
+							"recursive": false,
+							"wildcardFileName": "*.pdf"
 						}
 					},
 					"sink": {
