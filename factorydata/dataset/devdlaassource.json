@@ -10,11 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AmazonS3Location",
-				"bucketName": "duos-dl",
-				"fileName": {
-					"value": "4953d0d0-7003-49e7-b3e6-d6e9a5b337fd.pdf",
-					"type": "Expression"
-				}
+				"bucketName": "remove-testazurecopydata"
 			}
 		}
 	}
